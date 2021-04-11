@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151324046-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151324046-1');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>zigi - Probably the best source code management utility since the rubber band!</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="mosh-preloader"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area clearfix">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <!-- Menu Area Start -->
+                <div class="col-12 h-100">
+                    <div class="menu_area h-100">
+                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
+                            <!-- Logo 
+                            <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                            -->
+                            <!-- Menu Area -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                <ul class="navbar-nav animated" id="nav">
+                                   
+                                </ul>
+                              
+                                <!-- Link to GitHub -->
+                                <div class="login-register-btn">
+                                    <a target="_blank" href="https://github.com/zigi/zigi/releases/latest">Latest Release</a>
+                                    <a target="_blank" href="https://github.com/zigi/zigi">/ Git Repo</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="welcome_area clearfix" id="home" style="background-image: url(img/bg-img/welcome-bg.png)">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>The git interface for the rest of us!</h2>
+                    <h4>Probably the best source code management utility since the rubber band!</h4>
+
+                    <img class="slide-img" src="img/bg-img/zigi1.png" alt="">
+                </div>
+            </div>
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Git repository management from ISPF</h2>
+                    <h4>Manage your datasets (FB/VB, PS/PO, <i>any</i> LRECL) with a git backend</h4>
+                    <img class="slide-img" src="img/bg-img/zigi2.png" alt="">
+                </div>
+            </div>
+             <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Clones, Pulls & Pushes</h2>
+                    <h4>Share your Mainframe Stuff and collaborate with others!</h4>
+                    <img class="slide-img" src="img/bg-img/zigi3.png" alt="">
+                </div>
+            </div>
+             <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Remote Repositories?</h2>
+                    <h4>Edit your stuff even when you're not on a Mainframe!</h4>
+                    <img class="slide-img" src="img/bg-img/zigi4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+<!-- ***** Services Area Start ***** -->
+    <section class="mosh--services-area section_padding_100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Feature Area -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-feature-area d-flex mb-100">
+                        <div class="feature-icon mr-30">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Native ISPF</h4>
+                            <p>Manage all your z/OS datasets with git without typing a single git command. Now you can join the cool kids without having to leave your ISPF comfort zone.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-feature-area d-flex mb-100">
+                        <div class="feature-icon mr-30">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Multi DCB Support</h4>
+                            <p>With zigi you can manage your FB80's (not related to Facebook), your VB255's and anything in between. It supports PO and PS datasets. It basically does anything that's not VSAM, BDAM, ISAM or RECFM=U. And since v2r0 you can add binaries too!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-feature-area d-flex mb-100">
+                        <div class="feature-icon mr-30">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Packed with features</h4>
+                            <p>Create repositories from scratch, add your datasets and OMVS files. Clone a remote repository, do some branching. It's all possible in zigi v2r0. It even has point- and shoot fields in many of the panels :)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-feature-area d-flex mb-100">
+                        <div class="feature-icon mr-30">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Open Source</h4>
+                            <p>Fully opensource and looking for contributors Zigi is licensed under the GPL v3. Any issues can be filed at the <a href="https://github.com/zigi/zigi/issues" target="_blank">issue-page</a> at GitHub. On top of that you can use this product free of charge.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-feature-area d-flex mb-100">
+                        <div class="feature-icon mr-30">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Made with love</h4>
+                            <p>The first-ever release of zigi was nothing more than a panel and a CLIST that pushed things to GitHub. Henri's open-source project was quickly discovered by Lionel and together they upgraded zigi to a full-fledged ISPF application.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Feature Area -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-feature-area d-flex mb-100">
+                        <div class="feature-icon mr-30">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Liability</h4>
+                            <p>We're not accepting any liability claims for when the use of zigi results in a full-site-failure. Should the use of zigi, however generate joy, increased productivity or any other sort of positive effect, feel free to send us a donation :)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ***** Services Area End ***** -->    
+
+    <!-- ***** Clients Area Start ***** -->
+   <section class="mosh-team-area section_padding_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="section-heading text-center">
+                        <p>Contributors</p>
+                        <h2>Meet Our Awesome Development Team</h2>
+                        <h5 class="mt-30">If you want to join the development team, just fork the repository, and send a pull-request with your updates. Take a look at the open issues for a place to start. </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="mosh-team-slides owl-carousel">
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="img/portfolio-img/lbd.jpg" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Lionel B. Dyck</h4>
+                                <span>ISPF/REXX Guru</span>
+                                <p>The first (and major) contributor to zigi.</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="https://twitter.com/dycklionel" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://github.com/lbdyck" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="img/portfolio-img/hbk.jpeg" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Henri Kuiper</h4>
+                                <span>Founder of zigi</span>
+                                <p>Started zigi in 2018</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="https://twitter.com/henrikuiper" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="https://github.com/wizardofzos" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="img/portfolio-img/j.jpg" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Jim Taylor</h4>
+                                <span>Contributor</span>
+                                <p>Every contribution counts!</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                 <a href="https://twitter.com/jaytay" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+                                <a href="https://github.com/jaytay79"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="img/portfolio-img/kda.jpg" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Kadima</h4>
+                                <span>Contributor</span>
+                                <p>A small, yet needed, update to the readme!</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="https://github.com/kadmia"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="img/portfolio-img/gir.jpg" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Davide Girardi</h4>
+                                <span>Contributor</span>
+                                <p>Updated some SSH things :)</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="img/portfolio-img/you.jpg" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Your Name Here?</h4>
+                                <span>Contributor</span>
+                                <p>Start contributing to zigi and be featured here</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                       
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="https://avatars2.githubusercontent.com/u/7385069?s=460&v=4" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>mfsysprog</h4>
+                                <span>The Refactor Dude</span>
+                                <p>Some major code refactors (thanks!)</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="https://github.com/mfsysprog"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHATNLHpxNXig/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=tyI8ZqTdHx5UsHbT7R8jHACtpTQXFDXiQ3zW7ctp6rI" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>Kate Domenichella</h4>
+                                <span>Tech Writer</span>
+                                <p>You like the panels and the docs? Thank her!</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="https://www.linkedin.com/in/katherine-l-domenichella-b58137a2"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Single Team Slide -->
+                        <div class="single-team-slide text-center">
+                            <!-- Thumbnail -->
+                            <div class="team-thumbnail">
+                                <img src="https://avatars1.githubusercontent.com/u/58384627?s=460&v=4" alt="">
+                            </div>
+                            <!-- Meta Info -->
+                            <div class="team-meta-info">
+                                <h4>leeb-dev</h4>
+                                <span>Contributor</span>
+                                <p>Added the flag to diff-view</p>
+                            </div>
+                            <!-- Social Info -->
+                            <div class="team-social-info">
+                                <a href="https://github.com/leeb-dev"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://zigirocks.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                         
+        </div>
+    </section>
+    <!-- ***** Clients Area End ***** -->
+
+    <!-- ***** Features Area Start ***** -->
+    <section class="mosh-features-area section_padding_100 clearfix">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-12 col-md-6">
+                    <div class="section-heading">
+                        <p>from rubberband to git</p>
+                        <h2>A machine this modern requires modern development tools</h2>
+                    </div>
+                    <div class="features-content">
+                        <p>Back in the old days all you needed to manage your source code was a sharpie and
+                        a rubber band. Nowadays us developers require other tools.</p>
+                        <p>Git has proven to be a versatile source code management tool with the added bonus
+                            of providing a straight-forward distribution mechanism.</p>
+                                <p>With zigi you can manage all your Mainframe source codes in a <a href="https://git-scm.com" target="_blank">git</a> managed repository straight from within ISPF. You can push & pull to and from remote repositories like <a href="https://github.com">GitHub</a>, <a href="https://bitbucket.org">Bitbucket</a>, <a href="https://gitlab.com">GitLab</a>  and others.</p>
+                                <p>Start using zigi today!</p>
+
+ 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Thumb -->
+        <div class="features-img">
+            <img src="img/bg-img/features.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Feature Area End ***** -->
+
+   
+
+ 
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url(img/bg-img/cta.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
+                        <div class="section-heading">
+                            <p>reach out</p>
+                            <h2>Follow us on twitter</h2>
+                            <a href="https://twitter.com/ispfgit" target="_blank" class="btn mosh-btn">@ispfgit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area clearfix">
+        <!-- Top Fotter Area -->
+        <div class="top-footer-area section_padding_100_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>zigi</h5>
+                            <p>The git interface for the rest of us.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Fast links</h5>
+                            <ul>
+                                <li><a href="https://github.com/wizardofzos/zigi/blob/master/ZIGI.GPLLIC">License Information</a></li>
+                                   <li><a href="https://github.com/wizardofzos/zigi/blob/master/ZIGI.README">Readme file</a></li>
+                                                                      <li><a href="https://github.com/wizardofzos/zigi/issues">Open Issues</a></li>
+                                                                      <li><a href="https://github.com/wizardofzos/zigi/wiki">Wiki</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Documentation</h5>
+                            <ul>
+                                <li><a href="https://github.com/wizardofzos/zigi/wiki/6.-Documentation" target="_blank">zigi User Guide and Cheat Sheet</a></li>
+                          
+                                <li><a href="https://github.com/wizardofzos/zigi/wiki/1.-Installing-zigi" target="_blank">Installing zigi</a></li>
+                                <li><a href="https://github.com/wizardofzos/zigi/wiki/2.-Creating-a-repository" target="_blank">Creating a Repository</a></li>
+                                <li><a href="https://github.com/wizardofzos/zigi/wiki/3.-Adding-a-remote-repository" target="_blank">Adding a Remote Repository</a></li>
+                                <li><a href="https://github.com/wizardofzos/zigi/wiki/4.-Contributing%3F" target="_blank">Contributing to zigi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Projects managed with zigi</h5>
+                            <ul>
+                                <li><a href="https://github.com/wizardofzos/zigi" target="_blank">zigi</a></li>
+                                <li><a href="https://github.com/lbdyck/githelp" target="_blank">githelp</a></li>
+                                <li><a href="https://github.com/lbdyck/spellc" target="_blank">ISPF SpellChecker</a></li>
+                                <li><a href="https://github.com/lbdyck/ispftips" target="_blank">ISPF Tips</a></li>
+                                <li><a href="https://github.com/lbdyck/pdsegen" target="_blank">pdsegen</a></li>
+                                <li><a href="https://github.com/lbdyck/savelab" target="_blank">savelab</a></li>
+                                <li><a href="https://github.com/lbdyck/tsotrap" target="_blank">TSOTrap</a></li>
+                                <li><a href="https://github.com/lbdyck/zsync" target="_blank">zSync</a></li>
+                                <li><a href="https://github.com/wizardofzos/zigi/wiki/zigi-Managed-Repository-List" target="_blank">See the WIKI for more...</a></li>
+                                 
+                                <li><a href="#" target="_blank">Your project here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!-- Fotter Bottom Area -->
+        <div class="footer-bottom-area">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
+                            <div class="copyright-text">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+                            </div>
+                            <div class="footer-social-info">
+                              
+                                <a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/ispfgit"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
